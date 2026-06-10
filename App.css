@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gta-yellow: #f7c948;
+  --gta-orange: #e87d0d;
+  --gta-red: #c0392b;
+  --gta-dark: #0a0a0a;
+  --gta-darker: #050505;
+  --gta-grey: #1a1a1a;
+  --gta-light: #e8e8e8;
+  --gta-muted: #888;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--gta-dark);
+  color: var(--gta-light);
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* SECTION COMMON */
+section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--gta-yellow);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.section-sub {
+  text-align: center;
+  color: var(--gta-muted);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
